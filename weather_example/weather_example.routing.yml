@@ -1,0 +1,8 @@
+
+weather_example.weather_controller:
+  path: '/weather_example'
+  defaults:
+    _controller: '\Drupal\weather_example\Controller\WeatherController::weather'
+    _title: 'Weather for Milton, Delaware'
+  requirements:
+    _permission: 'access content'

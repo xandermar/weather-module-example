@@ -1,0 +1,5 @@
+name: 'Weather Example'
+type: module
+description: 'Shows weather example from NOAA'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Contains weather_example.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function weather_example_page_attachments(array &$attachments)
+{
+    $attachments['#attached']['library'][] = 'weather_example/css';
+}

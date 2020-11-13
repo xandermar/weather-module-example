@@ -14,7 +14,7 @@ class WeatherController extends ControllerBase
    * Hello.
    *
    * @return string
-   *   Return Hello string.
+   *   Return weather data string.
    */
     public function weather()
     {
